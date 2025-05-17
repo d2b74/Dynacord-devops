@@ -31,7 +31,7 @@ module.exports = run;
 const mongoose = require('mongoose');
 require('dotenv').config(); // Para usar variables de entorno si las tienes en un archivo .env
 
-const mongoURI = process.env.MONGO_URI || uri
+const mongoURI = process.env.MONGO_URL || uri
 const conectarDB = async () => {
   try {
     await mongoose.connect(mongoURI);
