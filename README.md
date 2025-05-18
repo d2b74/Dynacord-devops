@@ -1,4 +1,4 @@
- Sistema de Gestión Educativa 🎓
+# Sistema de Gestión Educativa 🎓
 
 Aplicación web para gestionar usuarios, cursos, notas y materias, desarrollada con Node.js, Express, MongoDB y Docker.
 
