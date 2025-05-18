@@ -17,5 +17,14 @@ Aplicación web para gestionar usuarios, cursos, notas y materias, desarrollada 
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu_usuario/tu_proyecto.git
-cd tu_proyecto
+git clone https://github.com/d2b74/Dynacord-devops.git
+cd Dynacord-devops
+```
+### 2.Ejecutar el proyecto con Docker Compose
+```bash
+docker-compose up -d --build
+```
+
+### 3.Acceder a la aplicación
+
+http://localhost:3000
