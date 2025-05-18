@@ -20,7 +20,7 @@ services:
     volumes:
       - mongo-data:/data/db
       - ./mongo-init/restore.sh:/docker-entrypoint-initdb.d/restore.sh:ro
-      - ./mongo-init/EscuelaItaliana:/backup/EscuelaItaliana:ro
+      - ./mongo-init/backup/EscuelaItaliana:/backup/EscuelaItaliana:ro
     networks:
       - red-dynacord
 

@@ -1,2 +1,2 @@
 #!/bin/bash
-mongorestore --drop /backup/EscuelaItaliana
+mongorestore --drop --db EscuelaItaliana /backup/EscuelaItaliana
