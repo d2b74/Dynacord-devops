@@ -20,12 +20,12 @@ Aplicación web para gestionar usuarios, cursos, notas y materias, desarrollada 
 git clone https://github.com/d2b74/Dynacord-devops.git
 cd Dynacord-devops
 ```
-### 2.Ejecutar el proyecto con Docker Compose
+### 2. Ejecutar el proyecto con Docker Compose
 ```bash
 docker-compose up -d --build
 ```
 
-### 3.Acceder a la aplicación
+### 3. Acceder a la aplicación
 
 http://localhost:3000
 
